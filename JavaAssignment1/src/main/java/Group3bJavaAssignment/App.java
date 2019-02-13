@@ -22,7 +22,7 @@ public class App
             int age = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter age: "));
 
             StringBuilder builder = new StringBuilder();
-            JOptionPane.showMessageDialog(null, builder.append("Name: " + name + "\n" + "Surname: ") + surname + "\n" + "Age: " + age);
+            JOptionPane.showMessageDialog(null, builder.append("First Name: " + name + "\n" + "Last Name: ") + surname + "\n" + "Age: " + age);
         }catch(Exception e)
         {
             JOptionPane.showMessageDialog(null,e);
